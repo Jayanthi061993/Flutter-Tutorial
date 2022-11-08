@@ -1,4 +1,0 @@
-#Tue Nov 08 17:49:50 IST 2022
-base.0=D\:\\4. MY_FLUTTER_PROJECTS\\Flutter-Tutorial\\1_Flutter-Tutorial\\tutorialone\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
-renamed.0=classes.dex
-path.0=classes.dex
