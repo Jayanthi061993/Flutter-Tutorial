@@ -12,16 +12,3 @@ class MyApp extends StatelessWidget {
     return Container();
   }
 }
-
-
-
-
-
-/**void main() {
-  runApp(const Center(
-    child: Text(
-      'Hello World',
-      textDirection: TextDirection.ltr,
-    ),
-  ));
-} **/
