@@ -13,14 +13,25 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    int counter = 0;
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(),
-        body: const Checkbox(
-          value: false,
-          onChanged: null,
+        body: Column(
+          children: <Widget>[
+            Text("Counter Value: => {$counter}"),
+            Checkbox(
+              value: false,
+              onChanged: (newValue) {
+                counter++;
+                // ignore: avoid_print
+                print("Counter Value: => {$counter}");
+              },
+            ),
+          ],
         ),
       ),
     );
   }
 }
+ //Count Value incremented on every button click but not rendered in widget
