@@ -9,7 +9,7 @@ void main() {
             title: 'FirstPage',
             home: Scaffold(
                 appBar: AppBar(
-                  title: const Text('FirstPAge'),
+                  title: const Text('FirstPage'),
                 ),
                 body: const Center(child: Text('Hello'))),
           )));
