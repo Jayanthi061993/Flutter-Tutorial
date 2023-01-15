@@ -4,7 +4,8 @@ import 'package:flutter/services.dart';
 void main() {
   //runApp(const MyApp());
   WidgetsFlutterBinding.ensureInitialized();
-  SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp])
+  SystemChrome.setPreferredOrientations(
+          [DeviceOrientation.portraitDown, DeviceOrientation.portraitUp])
       .then((value) => runApp(MaterialApp(
             title: 'FirstPage',
             home: Scaffold(
