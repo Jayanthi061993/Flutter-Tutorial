@@ -5,8 +5,12 @@ void main() {
   //runApp(const MyApp());
   WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp])
-      .then((value) => runApp(const MaterialApp(
+      .then((value) => runApp(MaterialApp(
             title: 'FirstPage',
-            home: Center(child: Text('Hello')),
+            home: Scaffold(
+                appBar: AppBar(
+                  title: const Text('FirstPAge'),
+                ),
+                body: const Center(child: Text('Hello'))),
           )));
 }
