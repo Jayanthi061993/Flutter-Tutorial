@@ -7,5 +7,6 @@ void main() {
   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp])
       .then((value) => runApp(const MaterialApp(
             title: 'FirstPage',
+            home: Text('Hello'),
           )));
 }
