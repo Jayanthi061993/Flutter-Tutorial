@@ -9,7 +9,7 @@ void main() {
       .then((value) => runApp(
             // ignore: prefer_const_constructors
             MaterialApp(
-              title: 'MyFirtsPage',
+              //title: 'MyFirtsPage',
               home: const FirstPage(),
             ),
           ));
